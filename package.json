@@ -1,0 +1,26 @@
+{
+  "name": "chat_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelMGs/chat_api.git"
+  },
+  "author": "PavelMG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelMGs/chat_api/issues"
+  },
+  "homepage": "https://github.com/PavelMGs/chat_api#readme",
+  "dependencies": {
+    "ws": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
